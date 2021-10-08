@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello world</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}" />
+</head>
+<body>
+    <!--heading-->
+    <span>Welcome</span>
+    <input type="text" />
+    <button>Кликни на меня</button>
+
+
+    <h1>Welcome</h1>
+    <form action="/my_handler.py" method="POST">
+        <input type="text" />
+        <input type="submit" />
+    </form>
+    <p>Это мой первый сайт hello world!</p>
+    <p>Мой второй параграф</p>
+    <table>
+        <th>заголовок1</th>
+        <th>заголовок2</th>
+
+        <tr>
+            <td>строка1</td>
+            <td>строка2</td>
+        </tr>
+
+    </table>
+
+
+
+    <a href="https://www.google.ru/" >КЛИКНИ!</a>
+    <a href="https://academy.codifylab.com"><img alt="cat picture" src="https://proprikol.ru/wp-content/uploads/2020/09/kartinki-mishki-40.jpg" /></a>
+</body>
+</html>
